@@ -233,37 +233,6 @@ background-color: rgb(19, 19, 79);
     animation-delay: none;
     animation-iteration-count: infinite;
 }
-.faq h2 {
-    text-align: center;
-    font-size: 48px;
-}
-
-.faq {
-    background: black;
-    color: white;
-    padding: 34px;
-}
-
-.faqbox:hover {
-    background-color: #414141;
-    color: white;
-}
-
-.faqbox svg {
-    filter: invert(1);
-}
-
-.faqbox {
-    transition: all 1s ease-out;
-    font-size: 24px;
-    display: flex;
-    justify-content: space-between;
-    background-color: #2d2d2d;
-    padding: 24px;
-    max-width: 60vw;
-    margin: 34px auto;
-    cursor: pointer;
-}
 
 footer {
     color: white;
@@ -321,11 +290,6 @@ footer .questions {
         align-items: center;
         justify-content: center;
         gap: 16px;
-    }
-
-    .faq h2 {
-        text-align: center;
-        font-size: 32px;
     }
 
     footer {
